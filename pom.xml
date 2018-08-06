@@ -116,6 +116,7 @@
 			</plugin>
 
 		</plugins>
+		<finalName>  empdetails </finalName>
 	</build>
 
 
