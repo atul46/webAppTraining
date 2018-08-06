@@ -121,7 +121,7 @@
 				<configuration>
 					<images>
 						<image>
-							<name>empdetails:${project.version}</name>
+							<name>empdetails</name>
 							<build>
 								<dockerFileDir>/root</dockerFileDir>
 							</build>
