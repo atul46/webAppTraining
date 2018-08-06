@@ -114,24 +114,13 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- <plugin>
-				<groupId>io.fabric8</groupId>
-				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.16.7</version>
-				<configuration>
-					<images>
-						<image>
-							<name>empdetails</name>
-							<build>
-								<dockerFileDir>/root</dockerFileDir>
-							</build>
-						</image>
-					</images>
-				</configuration>
-			</plugin> -->
+			<!-- <plugin> <groupId>io.fabric8</groupId> <artifactId>docker-maven-plugin</artifactId> 
+				<version>0.16.7</version> <configuration> <images> <image> <name>empdetails</name> 
+				<build> <dockerFileDir>/root</dockerFileDir> </build> </image> </images> 
+				</configuration> </plugin> -->
 
 		</plugins>
-		<finalName>  empdetails </finalName>
+		<finalName>empdetails</finalName>
 	</build>
 
 
