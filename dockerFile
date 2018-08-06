@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-EXPOSE 8080
+EXPOSE 9000
 ADD  target/empdetails.jar  empdetails.jar 
 ENTRYPOINT ["java","/target","-jar","/empdetails.jar"]
