@@ -114,7 +114,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>io.fabric8</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.16.7</version>
@@ -128,7 +128,7 @@
 						</image>
 					</images>
 				</configuration>
-			</plugin>
+			</plugin> -->
 
 		</plugins>
 		<finalName>  empdetails </finalName>
