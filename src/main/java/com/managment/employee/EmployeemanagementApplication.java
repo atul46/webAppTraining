@@ -13,7 +13,6 @@ import com.hazelcast.config.MapConfig;
 
 @SpringBootApplication
 @EnableCaching
-
 public class EmployeemanagementApplication {
 
 	public static void main(String[] args) {
